@@ -111,8 +111,6 @@ Initializes the websocket server
 Sets the callback function, host, and port,
 as well as starts the loop the server runs in
 
-:return: void
-
 """
 if __name__ == '__main__':
     factory = WebSocketServerFactory("ws://127.0.0.1:8080")
